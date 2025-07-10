@@ -1,5 +1,3 @@
-# automated_meta
-
 # Systematic Review Automator
 
 A lightweight Python GUI tool to **automate article screening** for systematic reviews using OpenAI's GPT models. This tool helps classify articles based on predefined exclusion criteria and outputs decisions with reasoning.
