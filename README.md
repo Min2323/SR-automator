@@ -33,13 +33,12 @@ Example:
 ## Exclusion Criteria
 
 The model excludes articles based on the following:
-
-1. Animal study (non-human subjects)  
-2. Non-original articles (e.g., congress, letter, note, narrative review)  
-3. Retracted or grey literature  
-4. Not written in **Korean or English**  
-5. Systematic review  
-6. Case study or case series  
+1) Animal study(research conducted on non-human animals): 
+2) Research category belongs to congress, erratum, letter, note, narrative review meaning that study that is not original study.
+3) Articles related with retraction or belongs to grey literature.
+4) The research is not written in Korean or English (this should be based explicitly on the title or abstract indicating the language is neither Korean nor English). 
+5) Systematic review.
+6) Any case study, and case series.
 
 
 ---
