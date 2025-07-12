@@ -4,7 +4,7 @@ A lightweight Python GUI tool to **automate article screening** for systematic r
 
 ---
 
-## ✅ Features
+## Features
 
 - Drag-and-drop CSV file support  
 - Real-time progress bar and elapsed time tracking  
@@ -13,7 +13,7 @@ A lightweight Python GUI tool to **automate article screening** for systematic r
 
 ---
 
-## 📁 Input Format
+## Input Format
 
 The input CSV file should contain the following columns:
 
@@ -30,7 +30,7 @@ Example:
 
 ---
 
-## 🚫 Exclusion Criteria
+## Exclusion Criteria
 
 The model excludes articles based on the following:
 
@@ -38,9 +38,8 @@ The model excludes articles based on the following:
 2. Non-original articles (e.g., congress, letter, note, narrative review)  
 3. Retracted or grey literature  
 4. Not written in **Korean or English**  
-9. Systematic review  
-10. Case study or case series  
+5. Systematic review  
+6. Case study or case series  
 
-> ⚠️ **Criteria numbers 5, 6, 7, 8 do not exist** and are never used.
 
 ---
