@@ -122,7 +122,7 @@ class WorkerThread(QThread):
 
             Format your answer according to the following:
             ###
-            Reason for exclusion: {{None,1,2,3,4,5,6,7}}
+            Reason for exclusion: {{None,1,2,3,4,5,6}}
             Final decision: {{Include,Exclude}}
             Reason for decision:
             ###
