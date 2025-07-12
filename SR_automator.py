@@ -99,9 +99,9 @@ class WorkerThread(QThread):
             1) Animal study(research conducted on non-human animals): 
             2) Research category belongs to congress, erratum, letter, note, narrative review meaning that study that is not original study.
             3) Articles related with retraction or belongs to grey literature.
-            5) The research is not written in Korean or English (this should be based explicitly on the title or abstract indicating the language is neither Korean nor English). 
-            6) Systematic review.
-            7) Any case study, and case series.
+            4) The research is not written in Korean or English (this should be based explicitly on the title or abstract indicating the language is neither Korean nor English). 
+            5) Systematic review.
+            6) Any case study, and case series.
 
             Article details:
 
@@ -122,7 +122,7 @@ class WorkerThread(QThread):
 
             Format your answer according to the following:
             ###
-            Reason for exclusion: {{None,1,2,3,4,9,10}}
+            Reason for exclusion: {{None,1,2,3,4,5,6,7}}
             Final decision: {{Include,Exclude}}
             Reason for decision:
             ###
