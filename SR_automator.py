@@ -99,9 +99,9 @@ class WorkerThread(QThread):
             1) Animal study(research conducted on non-human animals): 
             2) Research category belongs to congress, erratum, letter, note, narrative review meaning that study that is not original study.
             3) Articles related with retraction or belongs to grey literature.
-            4) The research is not written in Korean or English (this should be based explicitly on the title or abstract indicating the language is neither Korean nor English). 
-            9) Systematic review.
-            10) Any case study, and case series.
+            5) The research is not written in Korean or English (this should be based explicitly on the title or abstract indicating the language is neither Korean nor English). 
+            6) Systematic review.
+            7) Any case study, and case series.
 
             Article details:
 
@@ -115,9 +115,10 @@ class WorkerThread(QThread):
            - Articles that involve **human clinical studies** should not be excluded under criterion 1 unless it is explicitly stated that the research is an animal study.
            - If the abstract is unavailable or empty, it should not automatically result in exclusion under criterion 4. Base the decision on clear evidence from the title indicating that the article is not written in Korean or English.
            - If none of the exclusion criteria explicitly apply, the article should be **included** by default.
-           - If the article is to be excluded, specify the exclusion criterion number(s) and copy the relevant sentence(s) from the title or abstract that justify the decision into the <Reason for decision> field.           - Even if the abstract is not provided, it does not mean that it may not be writtern in korean or english, make decision based on title.
+           - If the article is to be excluded, specify the exclusion criterion number(s) and copy the relevant sentence(s) from the title or abstract that justify the decision into the <Reason for decision> field.           
+           - Even if the abstract is not provided, it does not mean that it may not be writtern in korean or english, make decision based on title.
            - If the article is to be included, put **no reason** in <Reason for decision> field.
-           - criteria number 5,6,7,8 do not exist. never put these number in <Reason for exclusion> field.
+
 
             Format your answer according to the following:
             ###
